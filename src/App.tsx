@@ -2,6 +2,7 @@ import './App.css';
 import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
 import { Carousel } from './layouts/HomePage/Carousel';
 import { Navbar } from './layouts/NavbarAndFooter';
+import { Heros } from './layouts/HomePage/Heros';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <ExploreTopBooks />
       <Carousel />
+      <Heros />
     </>
   );
 }
